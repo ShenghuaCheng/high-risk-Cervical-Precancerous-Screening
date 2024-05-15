@@ -1,0 +1,7 @@
+numpy==1.23.4
+torch==2.0.0+cu117
+timm==0.5.4
+opencv-python==4.4.0.44
+torchvision==0.15.1+cu117
+
+python==3.8.16
