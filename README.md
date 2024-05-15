@@ -9,20 +9,20 @@ saved in a dir.
 ## file
 + core -> define models
 + utils-> to read wsi
-+ weights -> the weights for two stages
++ weights -> the model weights
 + engine.py -> to inference
 + visualization.py -> to show the results 
-+ WSI_DEMO -> a lrwsi demo
++ WSI_DEMO -> a lrwsi demo file
 + main.py -> a demo script
 
 
 ## Quick start
 ### software and hard ware:
 > we have test the project on:
-> + The operation system of the server is Linux version 5.4.0-150-generic. 
-> + The server is equipped with four NVIDIA TITAN V graphics processing unit (UPG)
+> + operation system of the server is Linux version 5.4.0-150-generic. 
+> + server equipped with four NVIDIA TITAN V graphics processing unit (UPG)
 > + Intel(R) Core(TM) i9-9940X CPU @ 3.30GHz. 
-> + CUDA Version is 11.4. 
+> + CUDA Version is 11.4.   
 > In fact, the hardware and software requirements for this project are minimal, you can set smaller batch_size to meet the need which just will cost more time.
 ### step 1
 > create conda env, and make sure libs in requirements.txt is satisfied.  
