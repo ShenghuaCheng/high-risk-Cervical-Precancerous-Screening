@@ -9,10 +9,15 @@ saved in a dir.
 ## file
 + core -> define models
 + utils-> to read wsi
-+ weights -> the model weights
++ weights -> the model weights, down load at 
+  + stage_one_weight_file
+  + stage_two_weight_file
+  + down load at 
 + engine.py -> to inference
 + visualization.py -> to show the results 
-+ WSI_DEMO -> a lrwsi demo file
++ WSI_DEMO -> a lrwsi demo file, down load at 
+  + image of a view 1.bmp
+  + image of a view 2.bmp
 + main.py -> a demo script
 
 
@@ -25,8 +30,8 @@ saved in a dir.
 > + CUDA Version is 11.4.   
 > In fact, the hardware and software requirements for this project are minimal, you can set smaller batch_size to meet the need which just will cost more time.
 ### step 0
-> down load weight file at '', and save it in ./weights  (essential)
-> down demo lrwsi at '', and sace it in ./WSI_DEMO
+> down load weight file, and save it in ./weights  (essential)
+> down demo lrwsi, and sace it in ./WSI_DEMO
 ### step 1
 > create conda env, and make sure libs in requirements.txt is satisfied.  
 > `conda create -n your_env_name`  
