@@ -24,6 +24,9 @@ saved in a dir.
 > + Intel(R) Core(TM) i9-9940X CPU @ 3.30GHz. 
 > + CUDA Version is 11.4.   
 > In fact, the hardware and software requirements for this project are minimal, you can set smaller batch_size to meet the need which just will cost more time.
+### step 0
+> down load weight file at '', and save it in ./weights  (essential)
+> down demo lrwsi at '', and sace it in ./WSI_DEMO
 ### step 1
 > create conda env, and make sure libs in requirements.txt is satisfied.  
 > `conda create -n your_env_name`  
