@@ -67,7 +67,7 @@ In fact, the hardware and software requirements for this project are minimal, yo
 > python main.py --batch_size 128 --save_dir demo_result --wsi_dir WSI_DEMO --show_mode view --view_full_path WSI_DEMO\202101141632580407.bmp
 > ```
 > --view_full_path: if --show_mode is [view], the full path to a certain image of a view in a slide should be added    
-> --show mode: if --show_mode is [view], the results are the top 200 instance in the image of a view
+> --show mode: if --show_mode is [view], the results are the top instances in the image of a view
 
 ## To support other format wsi
 > to make use of our method on your own low resolution wsi data, you just need to modify the script: utils/smallwsiread.py, where:
