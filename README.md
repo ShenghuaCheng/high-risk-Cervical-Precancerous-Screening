@@ -55,10 +55,12 @@ In fact, the hardware and software requirements for this project are minimal, yo
 > ```shell
 > python main.py --batch_size 128 --save_dir demo_result --wsi_dir WSI_DEMO --show_mode top
 > ```
+> 
 > --batch_size: the batch size for the first stage model    
 > --save_dir: dir to save results  
 > --wsi_dir: lrwsi dir to test
 > --show_mode: if [top], the results are the top 10 instance with heat map mask  
+> 
 > ---
 > you can also set --show_mode [view], and run following command (demo):  
 > ```shell
