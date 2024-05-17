@@ -75,5 +75,5 @@ In fact, the hardware and software requirements for this project are minimal, yo
 > + make sure [self.instances] is like: {'filename_corW_corH': numpy_format_im, }
 >   + corW, cor_H: crop position relative to the top left corner of the image
 >   + numpy_format_im: (256, 256, 3) \ RGB \ 0-255 \ np.uint8
-> + make sure there is more than 200 insances in a slide
+> + make sure there is more than 200 instances in a slide
 
