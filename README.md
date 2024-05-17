@@ -9,13 +9,13 @@ saved in a dir.
 ## file
 + core -> define models
 + utils-> to read wsi
-+ weights -> the model weights, down load at 
++ weights -> the model weights, down load at [weights](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/weigths)
   + stage_one_weight_file
   + stage_two_weight_file
   + down load at 
 + engine.py -> to inference
 + visualization.py -> to show the results 
-+ WSI_DEMO -> a lrwsi demo file, down load at 
++ WSI_DEMO -> a lrwsi demo file, down load at [demo file](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/WSI_DEMO) 
   + image of a view 1.bmp
   + image of a view 2.bmp
 + main.py -> a demo script
