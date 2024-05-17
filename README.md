@@ -59,11 +59,12 @@ In fact, the hardware and software requirements for this project are minimal, yo
 > --save_dir: dir to save results  
 > --wsi_dir: lrwsi dir to test
 > --show_mode: if [top], the results are the top 10 instance with heat map mask  
+> ---
 > you can also set --show_mode [view], and run following command (demo):  
 > ```shell
 > python main.py --batch_size 128 --save_dir demo_result --wsi_dir WSI_DEMO --show_mode view --view_full_path WSI_DEMO\202101141632580407.bmp
 > ```
-> --view_full_path: if --show_mode is [view], the full path to a certain image of a view in a slide should be added  
+> --view_full_path: if --show_mode is [view], the full path to a certain image of a view in a slide should be added    
 > --show mode: if --show_mode is [view], the results are the top 200 instance in the image of a view
 
 ## To support other format wsi
