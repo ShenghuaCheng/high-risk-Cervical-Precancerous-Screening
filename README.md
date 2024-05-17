@@ -2,8 +2,8 @@
 
 ## low resolution WSI format
 A low resolution WSI is acquired by redundantly imaging different region of a sample. Our system supports any number of images for a slide.
-In demo, the raw images are 3840 * 2160 pixels (0.87 um/pixel) which will be further center-cropped to 1600 * 1600 pixels. All the images should be
-saved in a dir.
+In demo, the raw images are 3840 * 2160 pixels (0.87 um/pixel) which will be further center-cropped to 1600 * 1600 pixels. Instances are redundantly cropped from
+it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as input.
 
 
 ## file
@@ -32,7 +32,7 @@ saved in a dir.
 In fact, the hardware and software requirements for this project are minimal, you can set smaller batch_size to meet the need which just will cost more time.
 
 ### step 0
-> down load weight file, and save it in ./weights  (essential)
+> down load weight file, and save it in ./weights  (essential)  
 > down demo lrwsi, and sace it in ./WSI_DEMO
 ### step 1
 > create conda env, and make sure libs in requirements.txt is satisfied.  
