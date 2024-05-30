@@ -22,7 +22,7 @@ it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as i
 
 ## Quick start
 ### software and hard ware:
-> we have test the project on:
+> we have tested the project on:
 > + operation system of the server is Linux version 5.4.0-150-generic. 
 > + server equipped with four NVIDIA TITAN V graphics processing unit (UPG)
 > + Intel(R) Core(TM) i9-9940X CPU @ 3.30GHz. 
