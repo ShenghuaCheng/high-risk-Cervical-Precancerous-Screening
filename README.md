@@ -1,20 +1,20 @@
 # high-risk-Cervical-Precancerous-Screening
 
 ## low resolution WSI format
-A low resolution WSI is acquired by redundantly imaging different region of a sample. Our system supports any number of images for a slide.
+A low resolution whole slide image (LRWSI) is acquired by redundantly imaging different regions of a sample. Our system supports any number of images for a LRWSI.
 In demo, the raw images are 3840 * 2160 pixels (0.87 um/pixel) which will be further center-cropped to 1600 * 1600 pixels. Instances are redundantly cropped from
 it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as input.
 
 
 ## file
 + core -> define models
-+ utils-> to read wsi
-+ weights -> the model weights, down load at [weights](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/weigths)
++ utils-> to read LRWSI
++ weights -> the model weights, download at [weights](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/weigths)
   + stage_one_weight_file
   + stage_two_weight_file
 + engine.py -> to inference
 + visualization.py -> to show the results 
-+ WSI_DEMO -> a lrwsi demo file, down load at [demo file](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/WSI_DEMO) 
++ WSI_DEMO -> a LRWSI demo file, down load at [demo LRWSI](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/WSI_DEMO) 
   + image of a view 1.bmp
   + image of a view 2.bmp
 + main.py -> a demo script
@@ -32,7 +32,7 @@ In fact, the hardware and software requirements for this project are minimal, yo
 
 ### step 0
 > down load weight file, and save it in ./weights  (essential)  
-> down demo lrwsi, and sace it in ./WSI_DEMO
+> down demo LRWSI, and sace it in ./WSI_DEMO
 ### step 1
 > create conda env, and make sure libs in requirements.txt is satisfied.  
 > ```shlll
@@ -57,7 +57,7 @@ In fact, the hardware and software requirements for this project are minimal, yo
 > 
 > --batch_size: the batch size for the first stage model    
 > --save_dir: dir to save results  
-> --wsi_dir: lrwsi dir to test  
+> --wsi_dir: LRWSI dir to test  
 > --show_mode: if [top], the results are the top 10 instance with heat map mask  
 > 
 > ---
