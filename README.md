@@ -57,7 +57,7 @@ In fact, the hardware and software requirements for this project are minimal, yo
 > 
 > --batch_size: the batch size for the first stage model    
 > --save_dir: dir to save results  
-> --wsi_dir: lrwsi dir to test
+> --wsi_dir: lrwsi dir to test  
 > --show_mode: if [top], the results are the top 10 instance with heat map mask  
 > 
 > ---
