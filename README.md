@@ -12,7 +12,6 @@ it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as i
 + weights -> the model weights, down load at [weights](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/weigths)
   + stage_one_weight_file
   + stage_two_weight_file
-  + down load at 
 + engine.py -> to inference
 + visualization.py -> to show the results 
 + WSI_DEMO -> a lrwsi demo file, down load at [demo file](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/WSI_DEMO) 
