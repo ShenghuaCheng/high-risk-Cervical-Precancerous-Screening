@@ -3,7 +3,7 @@
 ## low resolution WSI format
 A low resolution whole slide image (LRWSI) is acquired by redundantly imaging different regions of a sample. Our system supports any number of images for a LRWSI.
 In demo, the raw images are 3840 * 2160 pixels (0.87 um/pixel) which will be further center-cropped to 1600 * 1600 pixels. Instances are redundantly cropped from
-it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as input. We have provided an uncompressed sample data (WSI_DEMO), as well as two compressed files containing 20 positive and 20 negative LRWSIs at [demo_data](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main).
+it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as input. We have provided an uncompressed sample data (WSI_DEMO), as well as two compressed files containing 20 positive and 20 negative LRWSIs at [demo_data](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main). 
 
 
 ## file
@@ -69,10 +69,10 @@ In fact, the hardware and software requirements for this project are minimal, yo
 > --show mode: if --show_mode is [view], the results are the top instances in the image of a view
 
 ## To support other format wsi
-> to make use of our method on your own low resolution wsi data, you just need to modify the script: utils/smallwsiread.py, where:
+> to make use of our method on other low resolution wsi data, you just need to modify the script: utils/smallwsiread.py, where:
 > + replace the function [block2instances] defined in [utils.SmallWsiRead.read] as you like
 > + make sure [self.instances] is like: {'filename_corW_corH': numpy_format_im, }
 >   + corW, cor_H: crop position relative to the top left corner of the image
 >   + numpy_format_im: (256, 256, 3) \ RGB \ 0-255 \ np.uint8
-> + make sure there is more than 200 instances in a slide
+> + [make sure there is more than 200 instances in a slide]
 
