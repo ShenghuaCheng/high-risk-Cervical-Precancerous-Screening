@@ -3,7 +3,7 @@
 ## low resolution WSI format
 A low resolution whole slide image (LRWSI) is acquired by redundantly imaging different regions of a sample. Our system supports any number of images for a LRWSI.
 In demo, the raw images are 3840 * 2160 pixels (0.87 um/pixel) which will be further center-cropped to 1600 * 1600 pixels. Instances are redundantly cropped from
-it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as input.
+it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as input. We have provided an uncompressed sample data (WSI_DEMO), as well as two compressed files containing 20 positive and 20 negative LRWSI at [demo_data](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main).
 
 
 ## file
@@ -14,7 +14,7 @@ it, which are 256 * 256 pixels and will be further resize to 224*224 pixels as i
   + stage_two_weight_file
 + engine.py -> to inference
 + visualization.py -> to show the results 
-+ WSI_DEMO -> a LRWSI demo file, down load at [demo LRWSI](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/WSI_DEMO) 
++ WSI_DEMO -> a LRWSI demo file, down load at [WSI_DEMO](https://huggingface.co/BruceAwake/high-risk-Cervical-Precancerous-Screening/tree/main/WSI_DEMO) 
   + image of a view 1.bmp
   + image of a view 2.bmp
 + main.py -> a demo script
